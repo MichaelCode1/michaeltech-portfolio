@@ -13,12 +13,12 @@ export const Projects = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+                                <h3 className="text-xl font-bold mb-2"> Electrostatic Simulation</h3>
                                 <p className="text-gray-400 mb-4"> 
-                                    scalable blblblbl
+                                    3D Python simulation of the electric field for two charged particles.
                                 </p>
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    {["React","Node.js","AWS", "Docker"].map((tech,key) => (
+                                    {["Python","Plotly","NumPy"].map((tech,key) => (
                                         <span 
                                             key={key}
                                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -31,7 +31,7 @@ export const Projects = () => {
 
                                 <div className="flex justify-between items-center">
                                     <a 
-                                    href="#" 
+                                    href="https://colab.research.google.com/drive/1bXOY70Qgv5JOoN7DJKWXbiRlVendjpRa#scrollTo=FxJR9XWEDS35" 
                                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                                     > 
                                         View Project →  
@@ -40,12 +40,39 @@ export const Projects = () => {
                             </div>
 
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+                                <h3 className="text-xl font-bold mb-2"> Portfolio Website (this website)</h3>
                                 <p className="text-gray-400 mb-4"> 
-                                    scalable blblblbl
+                                    Built website for work to show my knowledge and experience.
                                 </p>
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    {["React","Node.js","AWS", "Docker"].map((tech,key) => (
+                                    {["React","Node.js","Vite", "Javascript"].map((tech,key) => (
+                                        <span 
+                                            key={key}
+                                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                                        hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition
+                                        ">
+                                            {tech}
+                                        </span>
+                                    ))}
+                                </div>
+
+                                <div className="flex justify-between items-center">
+                                    <a 
+                                    href="https://github.com/MichaelCode1/michaeltech-portfolio" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                    > 
+                                        View Project →  
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                <h3 className="text-xl font-bold mb-2"> Binary Game AI Bot</h3>
+                                <p className="text-gray-400 mb-4"> 
+                                    Developed an AI bot for Binary Game (similar to Go) with a team. 90% win rate.
+                                </p>
+                                <div className="flex flex-wrap gap-2 mb-4">
+                                    {["AI","Python"].map((tech,key) => (
                                         <span 
                                             key={key}
                                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -61,7 +88,35 @@ export const Projects = () => {
                                     href="#" 
                                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                                     > 
-                                        View Project →  
+                                        Please ask for details.
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                <h3 className="text-xl font-bold mb-2"> Drawings & Artwork</h3>
+                                <p className="text-gray-400 mb-4"> 
+                                    Check out my instagram artwork page!
+                                    Follow me and let me know what you think.
+                                </p>
+                                <div className="flex flex-wrap gap-2 mb-4">
+                                    {["Drawing"].map((tech,key) => (
+                                        <span 
+                                            key={key}
+                                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                                        hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition
+                                        ">
+                                            {tech}
+                                        </span>
+                                    ))}
+                                </div>
+
+                                <div className="flex justify-between items-center">
+                                    <a 
+                                    href="https://www.instagram.com/ephemerisdrawings/" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                    > 
+                                        View Project →
                                     </a>
                                 </div>
                             </div>

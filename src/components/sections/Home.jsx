@@ -14,9 +14,10 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I'm a full-stack developer who loves crafting clean, scalable web
-                        applications. My goal is to build solutions that offer both
-                        exceptional performance and delightful user experience.
+                        Hi, I’m Michael — a developer and physicist who loves turning ideas into real-world solutions. 
+                        With skills spanning front-end and back-end development, plus a strong background in physics 
+                        and data analysis, I enjoy tackling challenges that blend technology and science. Welcome 
+                        to my corner of the web!
                     </p>
                     <div className="flex justify-center space-x-4">
                         <a 
