@@ -2,9 +2,9 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const frontendSkills = ["JavaScript", "HTML", "CSS", "XML", "React", "UI/UX", "Git", "Drawing/Art"];
-    const backendSkills = ["Python", "C", "C++", "SQL", "Linux", "Java", "JavaScript", "Azure", "Cloud Architecture", "Raspberry Pi", "API Integration"];
-    const scientificTools = ["SciPy", "NumPy", "Pandas", "SpacePy", "PDE2D", "Sensors", "R Commander", "Raspberry Pi"];
+    const frontendSkills = ["JavaScript", "HTML", "CSS", "XML", "React", "UI/UX", "Drawing/Art"];
+    const backendSkills = ["Python", "C", "C++", "SQL", "Linux", "Java", "JavaScript", "Azure", "Cloud Architecture", "Raspberry Pi", "API Integration", "Git", "Node.js"];
+    const scientificTools = ["AutoCAD", "SolidWorks","SciPy", "NumPy", "Pandas", "SpacePy", "PDE2D", "Sensors", "R Commander", "Raspberry Pi"];
     const scientificKnowledge = ["Mechanics", "Plasma Physics", "Quantum Mechanics", "Relativity", "Thermodynamics", "Electromagnetics"];
 
     return (
