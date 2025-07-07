@@ -97,27 +97,19 @@ export const About = () => {
                                     <strong> B.S. with a dual major in Computer Science and Physics</strong> - Univeristy of Alberta (2022-2025)
                                 </li>
                                 <li>
-                                    Relavent Coursework: Data Structures, Software Development, AI, ML, RL, Physics, Math ...
+                                    Relevant Coursework: Software Engineering/Development, AI, computational physics, mechanics, optics, electromagnetics, thermodynamics, wave physics, etc.
                                 </li>
                             </ul>
                         </div>
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4"> 👷‍♂️ Work Experience </h3>
                             <div className="space-y-4 text-gray-300">
-                                <div>
-                                    <h4 className="font-semibold"> Full-Stack Software Developer at the University of Alberta (2025)</h4>
-                                    <p> Developed Android social media app with a team.
-                                        Included offline sync, geolocation, and cloud connection.</p>
-                                </div>
 
-                                <div>
-                                    <h4 className="font-semibold"> Physics Researcher (2025)</h4>
-                                    <p> Researched abnormal space plasma loss with NASA satallite data. Required data anlysis, theory, etc.</p>
-                                </div>
+                                
 
                                 <div>
                                     <h4 className="font-semibold"> Physics Reseach Assistant (2024)</h4>
-                                    <p> Helped with research in ULF plasma waves. Required math, numeric methods, etc.</p>
+                                    <p> Helped with research in ULF plasma waves. Required math (PDEs), numeric methods, etc.</p>
                                 </div>
 
                                 <div>
