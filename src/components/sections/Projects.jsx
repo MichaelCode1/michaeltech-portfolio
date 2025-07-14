@@ -14,10 +14,10 @@ export const Projects = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                <h3 className="text-xl font-bold mb-2"> Continuous-Thrust Orbit Transfer</h3>
+                                <h3 className="text-xl font-bold mb-2"> Optics</h3>
                                 <p className="text-gray-400 mb-4"> 
-                                    Simulated and visualized near-optimal continuous-thrust orbit transfer without
-                                    approximations.
+                                    I have worked on numerous optics programs including: Fresnel zones, filters, lens systems,
+                                    and more.
                                 </p>
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {["Python","Orbital Analysis","NumPy", "SciPy"].map((tech,key) => (
@@ -33,10 +33,10 @@ export const Projects = () => {
 
                                 <div className="flex justify-between items-center">
                                     <a 
-                                    href="https://github.com/MichaelCode1/Continuous-Thrust-Orbit-Transfer" 
+                                    href="#" 
                                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                                     > 
-                                        In Progress →  
+                                        Please Ask  
                                     </a>
                                 </div>
                             </div>
